@@ -5,8 +5,8 @@ import wikipedia
 
 discovery = watson_developer_cloud.DiscoveryV1(
     '2016-11-07',
-    username='09016d7f-7bb9-4843-9e3d-e74042fa0c52',
-    password='JawkfPJ0KvAO')
+    username='username',
+    password='password')
 
 environments = discovery.get_environments()
 # print(json.dumps(environments, indent=2))
